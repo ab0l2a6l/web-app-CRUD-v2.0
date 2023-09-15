@@ -9,4 +9,5 @@ public interface PersonDB {
     void delete(long id)throws Exception;
     void update(Person person) throws Exception;
     List<Person> selectAll()throws Exception;
+    void commit()throws Exception;
 }
