@@ -4,7 +4,6 @@ import model.domain.Person;
 import model.repository.PersonDB;
 import model.repository.PersonDBImpl;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class PersonServiceImpl implements PersonService {

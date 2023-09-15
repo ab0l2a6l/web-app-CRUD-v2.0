@@ -13,13 +13,9 @@ import java.util.List;
 public class PersonDBImpl implements PersonDB , AutoCloseable{
     private Connection connection;
     private PreparedStatement preparedStatement;
-    public PersonDBImpl(){
-        try {
+    public PersonDBImpl()throws Exception{
             connection = JDBC.getConnection();
             connection.setAutoCommit(false);
-        } catch (Exception e) {
-            WrapperClass.get(e);
-        }
     }
     @Override
     public void insert(Person person) throws Exception {

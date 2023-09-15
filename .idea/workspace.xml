@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web-app-CRUD-v2.0:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80a2383-a637-4b7d-a239-ef98e3d296bc" name="Changes" comment="dasti kardan commit">
-      <change beforePath="$PROJECT_DIR$/src/model/repository/PersonDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository/PersonDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/service/PersonService.java" afterDir="false" />
+    <list default="true" id="d80a2383-a637-4b7d-a239-ef98e3d296bc" name="Changes" comment="sakht service">
+      <change afterPath="$PROJECT_DIR$/src/controler/person/FindAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controler/person/Remove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controler/person/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controler/person/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/infra-error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp2-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/dms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-impl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/page-error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controler/PersonControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/repository/PersonDBImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository/PersonDBImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/service/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/service/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app-CRUD-v2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-app-CRUD-v2.0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/person/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +45,19 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/ROOT/apache-tomcat-8.5.85/apache-tomcat-8.5.85/lib",
+    "last_opened_file_path": "E:/projects/web-app-CRUD-v2.0/web/WEB-INF/lib/jstl-impl-1.2.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -51,6 +85,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\projects\web-app-CRUD-v2.0\web\WEB-INF\lib" />
+      <recent name="E:\projects\web-app-CRUD-v2.0\web" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694783520627</updated>
-      <workItem from="1694783520632" duration="3278000" />
+      <workItem from="1694783520632" duration="6321000" />
     </task>
     <task id="LOCAL-00001" summary="sakhtar asli project">
       <created>1694802239805</created>
@@ -173,13 +208,28 @@
       <option name="project" value="LOCAL" />
       <updated>1694802926262</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sakht service">
+      <created>1694803647957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694803647957</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sakht service">
+      <created>1694803662650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694803662650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sakhtar asli project" />
     <MESSAGE value="sakht repository" />
     <MESSAGE value="dasti kardan commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="dasti kardan commit" />
+    <MESSAGE value="sakht service" />
+    <option name="LAST_COMMIT_MESSAGE" value="sakht service" />
   </component>
 </project>

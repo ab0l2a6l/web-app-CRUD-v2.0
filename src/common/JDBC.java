@@ -11,7 +11,7 @@ public class JDBC {
         bds.setPassword("Am311865186");
         bds.setDriverClassName("com.mysql.jdbc.Driver");
         bds.setMaxTotal(10);
-        bds.setUrl("jdbc:mysql://localhost:3306/abolfazl");
+        bds.setUrl("jdbc:mysql://localhost:3306/abol");
     }
 
     public static Connection getConnection() throws Exception{
