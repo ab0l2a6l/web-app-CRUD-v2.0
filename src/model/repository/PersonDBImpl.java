@@ -16,6 +16,7 @@ public class PersonDBImpl implements PersonDB , AutoCloseable{
     public PersonDBImpl(){
         try {
             connection = JDBC.getConnection();
+            connection.setAutoCommit(false);
         } catch (Exception e) {
             WrapperClass.get(e);
         }
@@ -58,6 +59,10 @@ public class PersonDBImpl implements PersonDB , AutoCloseable{
             people.add(person);
         }
         return people;
+    }
+
+    public void commit()throws Exception{
+        connection.commit();
     }
 
     @Override
