@@ -9,31 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80a2383-a637-4b7d-a239-ef98e3d296bc" name="Changes" comment="sakht service">
-      <change afterPath="$PROJECT_DIR$/src/controler/person/FindAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/person/Remove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/person/Save.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/person/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/infra-error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp2-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/dms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-api-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-impl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/page-error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/jquery.min.js" afterDir="false" />
+    <list default="true" id="d80a2383-a637-4b7d-a239-ef98e3d296bc" name="Changes" comment="takmil bedone design">
+      <change afterPath="$PROJECT_DIR$/web/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controler/PersonControler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/repository/PersonDBImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository/PersonDBImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/service/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/service/PersonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-app-CRUD-v2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-app-CRUD-v2.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/person/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/person/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/person/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +28,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -74,9 +57,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/projects/web-app-CRUD-v2.0/web/WEB-INF/lib/jstl-impl-1.2.jar",
+    "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -185,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694783520627</updated>
-      <workItem from="1694783520632" duration="6321000" />
+      <workItem from="1694783520632" duration="8702000" />
     </task>
     <task id="LOCAL-00001" summary="sakhtar asli project">
       <created>1694802239805</created>
@@ -222,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694803662650</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="takmil bedone design">
+      <created>1694807007238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694807007238</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,6 +220,7 @@
     <MESSAGE value="sakht repository" />
     <MESSAGE value="dasti kardan commit" />
     <MESSAGE value="sakht service" />
-    <option name="LAST_COMMIT_MESSAGE" value="sakht service" />
+    <MESSAGE value="takmil bedone design" />
+    <option name="LAST_COMMIT_MESSAGE" value="takmil bedone design" />
   </component>
 </project>

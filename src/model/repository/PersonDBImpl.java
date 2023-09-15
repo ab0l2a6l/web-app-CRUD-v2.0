@@ -28,7 +28,7 @@ public class PersonDBImpl implements PersonDB , AutoCloseable{
 
     @Override
     public void delete(long id) throws Exception {
-        preparedStatement = connection.prepareStatement("delete *  from person where id = ?");
+        preparedStatement = connection.prepareStatement("delete from person where id = ?");
         preparedStatement.setLong(1,id);
         preparedStatement.executeUpdate();
     }

@@ -6,11 +6,18 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Java2OpenSource</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="/index.jsp">Home</a>
 
-</body>
-</html>
+            </li>
+            <li><a href="/person/findAll.do">Person</a></li>
+            <li><a href="/car/findAll.do">Car</a></li>
+        </ul>
+    </div>
+</nav>
