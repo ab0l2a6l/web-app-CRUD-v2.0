@@ -34,7 +34,6 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public List<Person> findAll() throws Exception {
         personDB = new PersonDBImpl();
-        List<Person> people = new ArrayList<>();
         return  personDB.selectAll();
     }
 }
