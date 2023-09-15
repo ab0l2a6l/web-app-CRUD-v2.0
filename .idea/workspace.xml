@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80a2383-a637-4b7d-a239-ef98e3d296bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_app_CRUD_v2_0_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/JDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/WrapperClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/PersonControler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/repository/PersonDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/repository/PersonDBImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/service/PersonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-app-CRUD-v2.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="d80a2383-a637-4b7d-a239-ef98e3d296bc" name="Changes" comment="sakhtar asli project">
+      <change beforePath="$PROJECT_DIR$/src/common/WrapperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/WrapperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/repository/PersonDBImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/repository/PersonDBImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,8 +149,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694783520627</updated>
-      <workItem from="1694783520632" duration="1880000" />
+      <workItem from="1694783520632" duration="2498000" />
     </task>
+    <task id="LOCAL-00001" summary="sakhtar asli project">
+      <created>1694802239805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694802239805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sakhtar asli project" />
+    <option name="LAST_COMMIT_MESSAGE" value="sakhtar asli project" />
   </component>
 </project>

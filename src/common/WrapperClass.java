@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 public class WrapperClass extends Exception{
-    public int get(Exception e){
+    public static int get(Exception e){
         e.printStackTrace();
         if (e instanceof IOException)
             return 700;
