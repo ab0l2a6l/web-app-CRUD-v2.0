@@ -9,18 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80a2383-a637-4b7d-a239-ef98e3d296bc" name="Changes" comment="takmil project">
-      <change afterPath="$PROJECT_DIR$/src/controler/student/FindAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/student/Remove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/student/Save.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/student/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/repository/StudentDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/repository/StudentDBImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/service/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/student/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d80a2383-a637-4b7d-a239-ef98e3d296bc" name="Changes" comment="sakht db va service baraye student">
+      <change beforePath="$PROJECT_DIR$/src/controler/student/FindAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/student/FindAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controler/student/Remove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/student/Remove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controler/student/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/student/Save.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controler/student/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/student/Update.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694783520627</updated>
       <workItem from="1694783520632" duration="8783000" />
-      <workItem from="1694858888279" duration="2605000" />
+      <workItem from="1694858888279" duration="3436000" />
     </task>
     <task id="LOCAL-00001" summary="sakhtar asli project">
       <created>1694802239805</created>
@@ -225,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694809849176</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sakht db va service baraye student">
+      <created>1694861603884</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694861603884</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,6 +235,7 @@
     <MESSAGE value="sakht service" />
     <MESSAGE value="takmil bedone design" />
     <MESSAGE value="takmil project" />
-    <option name="LAST_COMMIT_MESSAGE" value="takmil project" />
+    <MESSAGE value="sakht db va service baraye student" />
+    <option name="LAST_COMMIT_MESSAGE" value="sakht db va service baraye student" />
   </component>
 </project>
