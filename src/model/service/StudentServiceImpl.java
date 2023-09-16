@@ -1,8 +1,6 @@
 package model.service;
 
 import model.domain.Student;
-import model.repository.PersonDB;
-import model.repository.PersonDBImpl;
 import model.repository.StudentDB;
 import model.repository.StudentDBImpl;
 
@@ -33,6 +31,7 @@ public class StudentServiceImpl implements StudentService{
 
     @Override
     public List<Student> findAll() throws Exception {
-        return new StudentDBImpl().selectAll();
+        studentDB = new StudentDBImpl();
+        return studentDB.selectAll();
     }
 }

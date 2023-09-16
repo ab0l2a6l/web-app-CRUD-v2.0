@@ -13,12 +13,12 @@ public class StudentDBImpl implements StudentDB , AutoCloseable{
     private Connection connection;
     private PreparedStatement preparedStatement;
     public StudentDBImpl()throws Exception{
-        JDBC.getConnection();
+        connection = JDBC.getConnection();
         connection.setAutoCommit(false);
     }
     @Override
     public void insert(Student student) throws Exception {
-        preparedStatement = connection.prepareStatement("insert into stundent (id, name, family)values(?,?,?)");
+        preparedStatement = connection.prepareStatement("insert into student (id, name, family)values(?,?,?)");
         preparedStatement.setLong(1,student.getId());
         preparedStatement.setString(2,student.getName());
         preparedStatement.setString(3,student.getFamily());

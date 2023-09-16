@@ -17,7 +17,7 @@
 
             </li>
             <li><a href="/person/findAll.do">Person</a></li>
-            <li><a href="/car/findAll.do">Car</a></li>
+            <li><a href="/student/findAll.do">Student</a></li>
         </ul>
     </div>
 </nav>
